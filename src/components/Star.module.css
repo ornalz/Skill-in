@@ -1,0 +1,65 @@
+.root {
+  border-radius: var(--br-20);
+  background: var(--gradient-1);
+  border: var(--border-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-0) var(--padding-10);
+  gap: var(--gap-4);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--green-green-text);
+  font-family: var(--font-noto-sans);
+}
+.root[data-property1="Danger"] {
+  background: var(--gradient-2);
+  display: none;
+  flex-shrink: 0;
+}
+.root[data-property1="Danger"] .starIcon {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(32%) saturate(4305%)
+    hue-rotate(258deg) brightness(116%) contrast(103%);
+  border: unset;
+  padding: unset;
+  background-color: unset;
+  flex-shrink: unset;
+}
+.root[data-property1="Danger"] .success {
+  color: var(--pink-pink-text);
+  flex-shrink: unset;
+}
+.root[data-property1="Danger"] .starIcon2 {
+  filter: brightness(0) saturate(100%) invert(100%) sepia(32%) saturate(4305%)
+    hue-rotate(258deg) brightness(116%) contrast(103%);
+  border: unset;
+  padding: unset;
+  background-color: unset;
+  flex-shrink: unset;
+  display: none;
+}
+.starIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-20);
+  width: var(--width-20);
+}
+.starIcon,
+.starIcon2,
+.success {
+  position: relative;
+  flex-shrink: 0;
+}
+.success {
+  line-height: var(--lh-24);
+}
+.starIcon2 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-20);
+  width: var(--width-20);
+}

@@ -1,0 +1,32 @@
+.projectOpen {
+  width: var(--width-1920);
+  background: var(--blue-grey-grad);
+  border-bottom: 1px solid var(--greyscale-grey-9);
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-48) var(--padding-64);
+  position: relative;
+  isolation: isolate;
+  gap: var(--gap-10);
+  text-align: left;
+  font-size: var(--fs-32);
+  color: var(--greyscale-white);
+  font-family: var(--font-fira-code);
+}
+.xmarkLargeIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  width: var(--width-40);
+  height: var(--height-40);
+  position: absolute;
+  margin: 0 !important;
+  top: 16px;
+  right: 16px;
+  z-index: 1;
+  flex-shrink: 0;
+}

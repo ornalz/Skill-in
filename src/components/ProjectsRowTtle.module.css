@@ -1,0 +1,56 @@
+.projectsRowTtle {
+  width: var(--width-1920);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: var(--padding-48) var(--padding-64) var(--padding-16);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--fs-24);
+  color: var(--greyscale-white);
+  font-family: var(--font-fira-code);
+}
+.container {
+  align-self: stretch;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.popularProjects {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  line-height: var(--lh-28);
+  font-weight: 700;
+  font-family: inherit;
+}
+.morelink {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  gap: var(--gap-4);
+}
+.seeAll {
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: var(--lh-21);
+  font-weight: 500;
+  font-family: var(--font-fira-code);
+  color: var(--greyscale-white);
+  text-align: left;
+}
+.arrowRightIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}

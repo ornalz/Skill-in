@@ -1,0 +1,107 @@
+.cardHeader,
+.root {
+  display: flex;
+  box-sizing: border-box;
+}
+.root {
+  width: var(--width-320);
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-8) var(--padding-8) var(--padding-16);
+  gap: var(--gap-8);
+  z-index: 0;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--brand-blue-text);
+  font-family: var(--font-noto-sans);
+}
+.root[data-property1="Default"]:active {
+  z-index: 1;
+  background-color: var(--brand-dark-blue);
+}
+.cardHeader {
+  align-self: stretch;
+  height: var(--height-160);
+  border-radius: var(--br-8);
+  background-color: var(--greyscale-grey-9);
+  align-items: flex-end;
+  justify-content: center;
+  padding: var(--padding-10);
+  gap: var(--gap-15);
+}
+.projectLogoIcon {
+  height: var(--height-140);
+  width: var(--width-100);
+  border-radius: var(--br-6);
+}
+.info {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-10);
+}
+.ellipsisVerticalIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  width: var(--width-20);
+  height: var(--height-20);
+  position: relative;
+}
+.info2 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-10);
+}
+.maxImpactIsrael {
+  position: relative;
+  line-height: var(--lh-22);
+}
+.applicants {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-10);
+  color: var(--greyscale-white);
+}
+.userGroupIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
+.applicants2 {
+  position: relative;
+  line-height: var(--lh-22);
+}
+.cardBody {
+  align-self: stretch;
+  border-radius: var(--br-8);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  gap: var(--gap-5);
+  font-size: var(--fs-18);
+  color: var(--greyscale-white);
+}
+.smartMentalHealth {
+  position: relative;
+  line-height: var(--lh-24);
+}
+.smartWaitlistCreation {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: var(--lh-22);
+  color: var(--greyscale-white-60);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

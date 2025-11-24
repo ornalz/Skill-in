@@ -1,0 +1,114 @@
+.header,
+.headerLeft {
+  display: flex;
+  align-items: center;
+}
+.header {
+  align-self: stretch;
+  height: var(--height-60);
+  background-color: var(--greyscale-grey-9);
+  justify-content: space-between;
+  padding: var(--padding-0) var(--padding-64);
+  box-sizing: border-box;
+  gap: var(--gap-20);
+  text-align: left;
+  font-size: var(--fs-14);
+  color: var(--green-green-text);
+  font-family: var(--font-noto-sans);
+}
+.headerLeft {
+  gap: var(--gap-60);
+}
+.skillInLogoIcon {
+  height: 54px;
+  width: 143px;
+  position: relative;
+  flex-shrink: 0;
+}
+.div,
+.search {
+  align-items: center;
+}
+.search {
+  width: 400px;
+  border-radius: var(--br-8);
+  background-color: var(--color-darkslategray);
+  display: none;
+  padding: var(--padding-8);
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.div {
+  height: var(--height-20);
+  flex: 1;
+  display: flex;
+  gap: var(--gap-8);
+}
+.magnifyingGlassIcon,
+.search2 {
+  border: 0;
+  background-color: transparent;
+  position: relative;
+  flex-shrink: 0;
+}
+.magnifyingGlassIcon {
+  cursor: pointer;
+  padding: var(--padding-01);
+  height: 25px;
+  width: 25px;
+}
+.search2 {
+  width: calc(100% - 25px);
+  outline: 0;
+  font-family: var(--font-fira-code);
+  font-size: var(--fs-16);
+  flex: 1;
+  line-height: var(--lh-20);
+  color: var(--color-gray-100);
+  text-align: left;
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.headerRight,
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: var(--gap-60);
+}
+.nav {
+  margin: 0;
+  gap: var(--gap-24);
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--greyscale-white);
+  font-family: var(--font-fira-code);
+}
+.projects {
+  color: var(--brand-blue-text);
+}
+.about,
+.projects {
+  position: relative;
+  line-height: var(--lh-21);
+  font-weight: 500;
+}
+.myApplications {
+  width: 59px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.userAvatarIcon {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-40);
+  width: var(--width-40);
+  position: relative;
+  border-radius: var(--br-50);
+  object-fit: cover;
+}

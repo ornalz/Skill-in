@@ -1,0 +1,104 @@
+.projectInfo,
+.projectInfo2 {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-10);
+}
+.projectInfo {
+  width: 1800px;
+  z-index: 0;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: var(--fs-32);
+  color: var(--greyscale-white);
+  font-family: var(--font-fira-code);
+}
+.projectInfo2 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-0) var(--padding-32) var(--padding-0) var(--padding-0);
+}
+.smartMentalHealth {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  line-height: var(--lh-36);
+  font-weight: 400;
+  font-family: inherit;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.clientLink {
+  display: flex;
+  align-items: center;
+  gap: var(--gap-8);
+  font-size: var(--fs-18);
+  color: var(--brand-blue-text);
+  font-family: var(--font-noto-sans);
+}
+.arrowUpRightFromSquareIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
+.maxImpactIsrael {
+  position: relative;
+  line-height: var(--lh-24);
+}
+.infoContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: var(--padding-16) var(--padding-0);
+  gap: var(--gap-16);
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--greyscale-white);
+  font-family: var(--font-noto-sans);
+}
+.projectBrief {
+  width: var(--width-1014);
+  position: relative;
+  line-height: var(--lh-22);
+  display: inline-block;
+}
+.download {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.downloadSystemDesign {
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: var(--lh-22);
+  font-family: var(--font-noto-sans);
+  color: var(--brand-blue-text);
+  text-align: left;
+}
+.applicants,
+.title {
+  display: flex;
+  align-items: flex-start;
+}
+.applicants {
+  width: var(--width-345);
+  flex-direction: column;
+  gap: var(--gap-16);
+  font-size: var(--fs-16);
+  font-family: var(--font-noto-sans);
+}
+.title {
+  gap: var(--gap-8);
+}
+.technologyInnovation {
+  position: relative;
+  line-height: var(--lh-22);
+}

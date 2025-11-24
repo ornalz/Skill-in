@@ -1,0 +1,52 @@
+.scroll,
+.scrollLeft {
+  align-items: center;
+  flex-shrink: 0;
+}
+.scroll {
+  width: var(--width-1920);
+  margin: 0 !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: -100px;
+  z-index: 6;
+}
+.scrollLeft {
+  height: var(--height-169);
+  background: var(--gradient-3);
+  padding: var(--padding-0) var(--padding-48) var(--padding-0) var(--padding-16);
+  box-sizing: border-box;
+}
+.iconbuttonfilledstandard {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-01);
+  background-color: transparent;
+  height: var(--height-36);
+  width: var(--width-36);
+  box-shadow: var(--shadow-drop);
+  border-radius: var(--br-18);
+}
+.scrollRight,
+.spacer {
+  align-items: center;
+  box-sizing: border-box;
+  flex-shrink: 0;
+}
+.spacer {
+  height: 41px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-10);
+  max-width: 100%;
+}
+.scrollRight {
+  height: var(--height-169);
+  background: var(--gradient-4);
+  padding: var(--padding-0) var(--padding-16) var(--padding-0) var(--padding-48);
+}

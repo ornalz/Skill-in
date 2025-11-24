@@ -1,0 +1,38 @@
+.applicant,
+.userAvatarParent {
+  display: flex;
+  align-items: center;
+}
+.applicant {
+  width: var(--width-345);
+  gap: var(--gap-8);
+  text-align: left;
+  font-size: var(--fs-16);
+  color: var(--greyscale-white);
+  font-family: var(--font-noto-sans);
+}
+.userAvatarParent {
+  flex: 1;
+  gap: var(--gap-16);
+}
+.userAvatarIcon {
+  width: var(--width-40);
+  position: relative;
+  border-radius: var(--br-50);
+  max-height: 100%;
+  object-fit: cover;
+}
+.applicantDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.technologyInnovation {
+  position: relative;
+  line-height: var(--lh-22);
+}
+.linkedinInIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}

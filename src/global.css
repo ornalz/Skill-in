@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:ital,wght@0,400;0,500;0,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700&display=swap");
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* Figma Variables */
+
+  /* Color */
+  --brand-blue-text: #80c8ff;
+  --brand-dark-blue: #2147aa;
+  --green-green: #4bbfac;
+  --green-green-text: #a8f8eb;
+  --greyscale-black-20: rgba(0, 0, 0, 0.2);
+  --greyscale-black-70: rgba(0, 0, 0, 0.7);
+  --greyscale-grey-9: #161719;
+  --greyscale-grey-18: #292c33;
+  --greyscale-white: #fff;
+  --greyscale-white-60: rgba(255, 255, 255, 0.6);
+  --pink-pink: #d763ae;
+  --pink-pink-text: #ffd3fb;
+
+  /* Common Style Variables */
+
+  /* Color */
+  --color-darkslategray: #41444c;
+  --color-gray-100: rgba(255, 255, 255, 0.5);
+
+  /* Gap */
+  --gap-4: 4px;
+  --gap-5: 5px;
+  --gap-8: 8px;
+  --gap-10: 10px;
+  --gap-15: 15px;
+  --gap-16: 16px;
+  --gap-20: 20px;
+  --gap-24: 24px;
+  --gap-30: 30px;
+  --gap-60: 60px;
+
+  /* Padding */
+  --padding-0: 0px;
+  --padding-01: 0;
+  --padding-8: 8px;
+  --padding-10: 10px;
+  --padding-16: 16px;
+  --padding-24: 24px;
+  --padding-28: 28px;
+  --padding-32: 32px;
+  --padding-48: 48px;
+  --padding-64: 64px;
+
+  /* BorderRadius */
+  --br-6: 6px;
+  --br-8: 8px;
+  --br-18: 18px;
+  --br-20: 20px;
+  --br-40: 40px;
+  --br-50: 50%;
+
+  /* Font */
+  --font-fira-code: Fira Code;
+  --font-noto-sans: Noto Sans;
+
+  /* FontSize */
+  --fs-14: 14px;
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+
+  /* Borders */
+  --border-1: 1px solid var(--greyscale-black-20);
+
+  /* Shadows */
+  --shadow-drop: 0px 1.5px 4px rgba(0, 0, 0, 0.16);
+
+  /* Gradients */
+  --blue-grey-grad: linear-gradient(
+    180deg,
+    var(--brand-dark-blue),
+    var(--greyscale-grey-9)
+  );
+  --gradient-1: linear-gradient(
+      var(--greyscale-black-70),
+      var(--greyscale-black-70)
+    ),
+    var(--green-green);
+  --gradient-2: linear-gradient(
+      var(--greyscale-black-70),
+      var(--greyscale-black-70)
+    ),
+    var(--pink-pink);
+  --gradient-3: linear-gradient(
+    270deg,
+    rgba(41, 44, 51, 0),
+    var(--greyscale-grey-18)
+  );
+  --gradient-4: linear-gradient(
+    270deg,
+    var(--greyscale-grey-18),
+    rgba(41, 44, 51, 0)
+  );
+
+  /* WidthHeights */
+  --height-20: 20px;
+  --height-36: 36px;
+  --height-40: 40px;
+  --height-60: 60px;
+  --height-140: 140px;
+  --height-160: 160px;
+  --height-169: 169px;
+  --width-20: 20px;
+  --width-36: 36px;
+  --width-40: 40px;
+  --width-100: 100px;
+  --width-320: 320px;
+  --width-345: 345px;
+  --width-1014: 1014px;
+  --width-1920: 1920px;
+
+  /* LineHeights */
+  --lh-20: 20px;
+  --lh-21: 21px;
+  --lh-22: 22px;
+  --lh-24: 24px;
+  --lh-28: 28px;
+  --lh-36: 36px;
+}

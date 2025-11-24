@@ -1,0 +1,29 @@
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-8) var(--padding-24);
+  background-color: var(--green-green);
+  border-radius: var(--br-40);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8);
+}
+.starIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
+.button2 {
+  position: relative;
+  font-size: var(--fs-16);
+  line-height: var(--lh-21);
+  font-family: var(--font-fira-code);
+  color: var(--greyscale-grey-9);
+  text-align: left;
+}
+.arrowRightIcon {
+  height: var(--height-20);
+  width: var(--width-20);
+  position: relative;
+}
